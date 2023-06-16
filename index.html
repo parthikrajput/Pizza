@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger | Bringing Joy a Quarter Pounder at a Time.</title>
+    <!-- Montserrat-font  -->
+    <link rel="stylesheet" href="css/font.css">
+    <!-- bootstrap-icon  -->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap-min  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- swiper-css  -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- css  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="topbar bg-dark">
+            <div class="container">
+                <div class="row align-items-center justify-content-between text-light">
+                    <div class="col-3 align-items-center">
+                        <div class="address">
+                            <i class="fa-solid fa-location-dot me-2"></i>
+                            <span class="">G-29, Gallery Shop Mall</span>
+                        </div>
+                    </div>
+                    <div class="col-7 d-flex justify-content-end">
+                        <div class="social-detil">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="tel:+919876543210">
+                                        <i class="fa-solid fa-headset me-2"></i>
+                                        <span>+91 9876543210</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="mailto:info@burger.com">
+                                        <i class="bi bi-envelope-open-fill me-2"></i>
+                                        <span>info@burger.com</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social-media">
+                            <ul class="nav ">
+                                <li class="nav-item">
+                                    <a class="nav-link border-start border-light" href="#">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link border-start border-light" href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link border-start border-light" href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link border-start border-end border-light" href="#">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg align-items-center">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="logo" width="60%">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item p-1 dropdown">
+                            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">Home</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">Food Delivery</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Water Delivery</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Pizza Time</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Medical Supplies</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item p-1 dropdown">
+                            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">About us</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">Testimonials</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">FAQ</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Gallery</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">404 Page</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item p-1 dropdown">
+                            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">Catalog</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">Shop</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Cart</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Checkout</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">My account</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a class="nav-link active" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="nav  ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="bi bi-person-circle"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-target="#offcanvasTop" data-bs-toggle="offcanvas">
+                                <i class="bi bi-search"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-cart4"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- banner -->
+        <section class="banner">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <div class="banner-text text-white mt-5">
+                            <h5 class="fw-normal mb-3">Want to make your device safe?</h5>
+                            <h2 class="mb-4 fw-semibold">
+                                The Best burger landing page for burger showcase
+                            </h2>
+                            <p class="fw-normal mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod tempor
+                                incididunt ut</p>
+                            <div>
+                                <a href="#" class="btn btn-primary me-2 py-2 px-4">
+                                    <i class="bi bi-apple pe-1"></i>
+                                    <span>View our services</span>
+                                </a>
+                                <a href="#" class="btn btn-bg btn-primary py-2 px-4 ">
+                                    <i class="bi bi-android2 pe-1"></i>
+                                    <span>View our Menu</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rect1  position-absolute">
+                            <img src="img/shape-2.png" alt="">
+                        </div>
+                        <div class="rect2 position-absolute">
+                            <img src="img/shape-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="banner-img">
+                            <img src="img/features_thumb.png" alt="" class="px-3">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-us  -->
+        <section class=" about pb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="title text-center">
+                        <p class="mb-2 fw-normal">About burger</p>
+                        <h2 class="fw-semibold mb-5">Why do you like?</h2>
+                    </div>
+                    <div class="col-4">
+                        <div class="card p-4">
+                            <img src="img/icon-bg.png" alt="" class="my-3">
+                            <sapn class="bi bi-stopwatch"></sapn>
+                            <div class="card-body text-center">
+                                <h2 class="mb-3 text-dark">Wow animations</h2>
+                                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card p-4">
+                            <img src="img/icon-bg.png" alt="" class="my-3">
+                            <sapn class="bi bi-layers"></sapn>
+                            <div class="card-body text-center">
+                                <h2 class="mb-3 text-dark">Clean code</h2>
+                                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card p-4">
+                            <img src="img/icon-bg.png" alt="" class="my-3">
+                            <sapn class="bi bi-columns"></sapn>
+                            <div class="card-body text-center">
+                                <h2 class="mb-3 text-dark">Free icon fonts</h2>
+                                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- explain -->
+        <section class="explain">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="explain-img px-3">
+                            <img src="img/explain-img.png" alt="explain-img">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="explain-text text-white px-3">
+                            <p class="fw-normal mb-3">A modern and unique style</p>
+                            <h2 class="mb-4 fw-semibold">Important facts</h2>
+                            <p class="fw-normal mb-5">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquipex ea commodo consequat. Duis aute irure dolor in rep rehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="single-part">
+                                        <h2 class="mb-2">56+</h2>
+                                        <p>Chef</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="single-part">
+                                        <h2 class="mb-2">500+</h2>
+                                        <p>Reviews</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="continue text-white">
+                                <a href="#">Read More <i class="bi bi-arrow-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- features -->
+        <section class="features pt-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h2 class="mt-3 mb-4 fw-semibold text-dark">Features with Icons</h2>
+                        <p class="text-dark fw-normal ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation</p>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="icon-box">
+                                    <div class="icon">
+                                        <i class="bi bi-bell-fill"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h4>Easy Sutup</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed do eiusmo
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="icon-box">
+                                    <div class="icon">
+                                        <i class="bi bi-cart-fill"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h4>Clean Code</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed do eiusmo
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="icon-box">
+                                    <div class="icon">
+                                        <i class="bi bi-key-fill"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h4>Free fonts</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed do eiusmo
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="icon-box">
+                                    <div class="icon">
+                                        <i class="bi bi-vector-pen"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h4>Bootstrap 4</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed do eiusmo
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 text-center">
+                        <img src="img/fea-img.png" alt="fea-img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- shar -->
+        <section class="share">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="share-content text-center">
+                            <h2 class="text-dark fw-semibold mb-4">Share Our Favorite <span>burger</span> With Your
+                                Friends</h2>
+                            <p class="mb-4 fw-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod tempor incididunt</p>
+                            <ul class="social-icon mb-4 ">
+                                <li class="mb-2 ms-2">
+                                    <a href="#">
+                                        <i class="bi bi-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="mb-2 ms-2">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="mb-2 ms-2">
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li class="mb-2 ms-2">
+                                    <a href="#">
+                                        <i class="bi bi-google"></i>
+                                    </a>
+                                </li>
+                                <li class="mb-2 ms-2">
+                                    <a href="#">
+                                        <i class="bi bi-pinterest"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="img/share-app.png" alt="share-app">
+                </div>
+            </div>
+        </section>
+        <!-- video  -->
+        <section class="video position-relative">
+            <div class="container pb-100 pt-100">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="video-text ps-4 text-white">
+                            <h2 class="mb-4 fw-semibold">Book Online</h2>
+                            <p class="fw-normal mb-3">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit, </p>
+                            <a href="tel:01234567785542" class="btn btn-primary py-2 px-4">
+                                <i class="bi bi-telephone-fill"></i>
+                                <span>01 234 567 785 542</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="video-ply-btn">
+                            <a href="#">
+                                <i class="bi bi-play-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- pricing-plan  -->
+        <section class="pricing-plan pb-100 pt-100">
+            <div class="container">
+                <div class=" row">
+                    <div class="pricing-title text-center">
+                        <h2 class="mb-4 fw-semibold">Pricing plan</h2>
+                        <p class="fw-normal mb-3">Libero necessitatibus optio nobis saepe, veritatis aperiam illum hic
+                            sapiente.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card border-0 mt-3">
+                            <svg x="0" y="0" viewBox="0 0 360 220">
+                                <g>
+                                    <path fill="#ff8200" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
+                                            c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
+                                            s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
+                                            L0.732,193.75z"></path>
+                                </g>
+                                <text transform="matrix(1 0 0 1 100.7256 116.2686)" fill="#fff"
+                                    font-size="78.4489">$10</text>
+                                <text transform="matrix(1 0 0 1 240.9629 115.5303)" fill="#fff"
+                                    font-size="15.4128">/Month</text>
+                            </svg>
+                            <div class="card-body text-center py-5 px-0">
+                                <h3>Standard</h3>
+                                <ul class="pricing-content">
+                                    <li>50GB Disk Space</li>
+                                    <li>50 Email Accounts</li>
+                                    <li>50GB Bandwidth</li>
+                                    <li>10 Subdomains</li>
+                                    <li>15 Domains</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card border-0 mt-3">
+                            <svg x="0" y="0" viewBox="0 0 360 220">
+                                <g>
+                                    <path fill="#ff2600" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
+                                            c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
+                                            s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
+                                            L0.732,193.75z"></path>
+                                </g>
+                                <text transform="matrix(1 0 0 1 100.7256 116.2686)" fill="#fff"
+                                    font-size="78.4489">$20</text>
+                                <text transform="matrix(1 0 0 1 240.9629 115.5303)" fill="#fff"
+                                    font-size="15.4128">/Month</text>
+                            </svg>
+                            <div class="card-body text-center py-5 px-0">
+                                <h3>Standard</h3>
+                                <ul class="pricing-content">
+                                    <li>50GB Disk Space</li>
+                                    <li>50 Email Accounts</li>
+                                    <li>50GB Bandwidth</li>
+                                    <li>10 Subdomains</li>
+                                    <li>15 Domains</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card border-0 mt-3">
+                            <svg x="0" y="0" viewBox="0 0 360 220">
+                                <g>
+                                    <path fill="#ff8200" d="M0.732,193.75c0,0,29.706,28.572,43.736-4.512c12.976-30.599,37.005-27.589,44.983-7.061
+                                            c8.09,20.815,22.83,41.034,48.324,27.781c21.875-11.372,46.499,4.066,49.155,5.591c6.242,3.586,28.729,7.626,38.246-14.243
+                                            s27.202-37.185,46.917-8.488c19.715,28.693,38.687,13.116,46.502,4.832c7.817-8.282,27.386-15.906,41.405,6.294V0H0.48
+                                            L0.732,193.75z"></path>
+                                </g>
+                                <text transform="matrix(1 0 0 1 100.7256 116.2686)" fill="#fff"
+                                    font-size="78.4489">$30</text>
+                                <text transform="matrix(1 0 0 1 240.9629 115.5303)" fill="#fff"
+                                    font-size="15.4128">/Month</text>
+                            </svg>
+                            <div class="card-body text-center py-5 px-0">
+                                <h3>Standard</h3>
+                                <ul class="pricing-content">
+                                    <li>50GB Disk Space</li>
+                                    <li>50 Email Accounts</li>
+                                    <li>50GB Bandwidth</li>
+                                    <li>10 Subdomains</li>
+                                    <li>15 Domains</li>
+                                </ul>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- review  -->
+        <section class="review">
+            <div class="container">
+                <div class="row pt-100 pb-100">
+                    <div class="col-5">
+                        <div class="review-text">
+                            <h2 class="text-white fw-semibold mb-4">Reviews</h2>
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="review-item text-white mt-4">
+                                            <div class="img">
+                                                <img src="img/author1.jpg" alt="author1">
+                                            </div>
+                                            <p class="mt-3 mb-4">
+                                                Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                                has roots in a piece of classical Latin literature from 45 BC, making it
+                                                over 2000 years old.Contrary to popular belief,
+                                                Lorem Ipsum is not simply random text.
+                                            </p>
+                                            <h5>Mark Jkcno</h5>
+                                            <p class="mb-5">Designer</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <div class="review-item text-white mt-4">
+                                            <div class="img">
+                                                <img src="img/author1.jpg" alt="author1">
+                                            </div>
+                                            <p class="mt-3 mb-4">
+                                                Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                                has roots in a piece of classical Latin literature from 45 BC, making it
+                                                over 2000 years old.Contrary to popular belief,
+                                                Lorem Ipsum is not simply random text.
+                                            </p>
+                                            <h5>Mark Jkcno</h5>
+                                            <p class="mb-5">Designer</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <div class="review-item text-white mt-4">
+                                            <div class="img">
+                                                <img src="img/author2.jpg" alt="author2">
+                                            </div>
+                                            <p class="mt-3 mb-4">
+                                                Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                                has roots in a piece of classical Latin literature from 45 BC, making it
+                                                over 2000 years old.Contrary to popular belief,
+                                                Lorem Ipsum is not simply random text.
+                                            </p>
+                                            <h5>Mark Jkcno</h5>
+                                            <p class="mb-5">Designer</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <div class="review-item text-white mt-4">
+                                            <div class="img">
+                                                <img src="img/author3.jpg" alt="author3">
+                                            </div>
+                                            <p class="mt-3 mb-4">
+                                                Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                                has roots in a piece of classical Latin literature from 45 BC, making it
+                                                over 2000 years old.Contrary to popular belief,
+                                                Lorem Ipsum is not simply random text.
+                                            </p>
+                                            <h5>Mark Jkcno</h5>
+                                            <p class="mb-5">Designer</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <div class="review-item text-white mt-4">
+                                            <div class="img">
+                                                <img src="img/author3.jpg" alt="author3">
+                                            </div>
+                                            <p class="mt-3 mb-4">
+                                                Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                                has roots in a piece of classical Latin literature from 45 BC, making it
+                                                over 2000 years old.Contrary to popular belief,
+                                                Lorem Ipsum is not simply random text.
+                                            </p>
+                                            <h5>Mark Jkcno</h5>
+                                            <p class="mb-5">Designer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/1.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/2.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/3.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/4.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/5.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/1.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/2.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/3.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/4.jpg" alt="" class="img-fluid">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/5.jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- news -->
+        <section class="news pt-100">
+            <div class="container">
+                <div class="row">
+                    <div class="news-title text-center">
+                        <p class="fw-normal mb-3">burger News</p>
+                        <h2 class="fw-semibold mb-5">What is going on.</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="img/blog-img-1.jpg" alt="blog-img-1">
+                            <div class="card-body p-0 pt-4 mb-4">
+                                <ul class="mb-0">
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-calendar me-2"></i>
+                                            <span> Jan 20, 2018</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-person me-2"></i>
+                                            <span> Admin</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-chat-left me-2"></i>
+                                            <span>22</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h3 class="fw-semibold">An Ugly Myspace Profile Will Sure</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="img/blog-img-2.jpg" alt="blog-img-2">
+                            <div class="card-body p-0 pt-4  mb-4">
+                                <ul class="mb-0">
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-calendar me-2"></i>
+                                            <span> Jan 20, 2018</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-person me-2"></i>
+                                            <span> Admin</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-chat-left me-2"></i>
+                                            <span>12</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h3 class="fw-semibold">An Ugly Myspace Profile Will Sure</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="img/blog-img-3.jpg" alt="blog-img-3">
+                            <div class="card-body p-0 pt-4  mb-4">
+                                <ul class="mb-0">
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-calendar me-2"></i>
+                                            <span> Jan 20, 2018</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-person me-2"></i>
+                                            <span> Admin</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-chat-left me-2"></i>
+                                            <span>9</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <h3 class="fw-semibold">An Ugly Myspace Profile Will Sure</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contect -->
+        <section class="contect pt-100 pb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="contect-info">
+                            <h3 class="con-title">
+                                Contact info
+                            </h3>
+                            <ul class="ps-0 align-items-center text-dark">
+                                <li class="d-flex mb-4">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                    <p>
+                                        <a class="text-dark">Lorem ipsum dolor sit amet, consectetur.</a>
+                                    </p>
+                                </li>
+                                <li class="d-flex mb-4">
+                                    <i class="bi bi-telephone-fill"></i>
+                                    <p>
+                                        <a class="text-dark" href="tel:01 234 567 785 542">01 234 567 785 542</a>
+                                    </p>
+                                </li>
+                                <li class="d-flex mb-4">
+                                    <i class="bi bi-envelope-fill"></i>
+                                    <p>
+                                        <a class="text-dark" href="mailto:mail@app.com">mail@app.com</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="contect-form">
+                            <h2 class="mb-5 fw-semibold">Contact hear</h2>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="exampleFormControlInput1" class="form-label"></label>
+                                    <input type="text" class="form-control" id="name" placeholder="your name"
+                                        style="height: 60px;">
+                                </div>
+                                <div class="col-6">
+                                    <label for="exampleFormControlInput1" class="form-label"></label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Email address" style="height: 60px;">
+                                </div>
+                                <div class="col-12">
+                                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                    <textarea class="form-control px-3 py-3" id="exampleFormControlTextarea1" rows="3"
+                                        placeholder="Enter your message"></textarea>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary me-2 py-2 px-4 mt-4">
+                                <i class="bi bi-rocket-takeoff-fill"></i>
+                                <span>Send Message</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container pt-100 pb-100">
+            <div class="row align-items-center">
+                <div class="col-4">
+                    <img src="img/logo.png" alt="">
+                    <p class="fw-normal text-white mt-4 mb-4">Lorem ipsum dolor sit amet, consy ect etur adipisc de
+                        elit. Quisque act</p>
+                    <ul class="social-icon mb-4 ps-0">
+                        <li class="mb-2 ms-2">
+                            <a href="#">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="mb-2 ms-2">
+                            <a href="#">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="mb-2 ms-2">
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="mb-2 ms-2">
+                            <a href="#">
+                                <i class="bi bi-google"></i>
+                            </a>
+                        </li>
+                        <li class="mb-2 ms-2">
+                            <a href="#">
+                                <i class="bi bi-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <div class="footer-info text-white">
+                        <h4 class="fw-semibold mb-4">Contact Info</h4>
+                        <ul class="ps-0">
+                            <li class="mb-3">Faq</li>
+                            <li class="mb-3">Team</li>
+                            <li class="mb-3">Marker</li>
+                            <li>Comment</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="footer-client">
+                        <h4 class="fw-semibold mb-4 text-white">Downloads</h4>
+                        <p class=" text-white">Lorem ipsum dolor sit amet, consy ect etur adipisc de elit. Quisque act
+                        </p>
+
+                        <a href="#" class="btn btn-primary me-2 py-2 px-4 mb-3 fw-semibold">
+                            <i class="bi bi-apple pe-1"></i>
+                            <span>View our services</span>
+                        </a>
+                        <a href="#" class="btn btn-bg btn-primary py-2 px-4 fw-semibold">
+                            <i class="bi bi-android2 pe-1"></i>
+                            <span>View our Menu</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+ 
+    <div class="offcanvas offcanvas-top text-bg-dark" tabindex="-1" id="offcanvasTop"
+        aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-body">
+            <form class="d-flex" role="search">
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            rewind: true,
+            //   freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
